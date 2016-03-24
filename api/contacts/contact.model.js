@@ -11,6 +11,17 @@ var ContactSchema = new Schema({
   updated: { type: Date, default: Date.now }
 });
 
+
+var sendgrid  = require('sendgrid')('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');
+sendgrid.send({
+  to:       'patrickirish1992@yahoo.ie',
+  from:     'other@example.com',
+  subject:  'Hello World',
+  text:     'My first email through SendGrid.'
+}, function(err, json) {
+  if (err) { return console.error(err); }
+  console.log(json);
+});
 // {"name":"Patrick", "address":"dingle","age": "24","email": "none","updated": "12/12/12"}
 //{"name":"Patrick", "address":"dingle","age": "24","email": "none","updated": "12/12/12"}
 /*
