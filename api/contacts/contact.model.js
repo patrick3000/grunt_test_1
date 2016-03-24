@@ -13,7 +13,7 @@ var ContactSchema = new Schema({
 
 // {"name":"Patrick", "address":"dingle","age": "24","email": "none","updated": "12/12/12"}
 //{"name":"Patrick", "address":"dingle","age": "24","email": "none","updated": "12/12/12"}
-
+/*
 ContactSchema.path('address').validate(function (v) {
 	
 	if(v.length>40 || v.length <5){
@@ -31,7 +31,7 @@ ContactSchema.path('email').validate(function (v) {
 	
 	
 },'you must enter a valid email');
-
+*/
 
 
 
