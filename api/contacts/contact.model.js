@@ -24,6 +24,9 @@ sendgrid.send({
 });
 // {"name":"Patrick", "address":"dingle","age": "24","email": "none","updated": "12/12/12"}
 //{"name":"Patrick", "address":"dingle","age": "24","email": "none","updated": "12/12/12"}
+
+//{"name":"Patrick", "address":"dingle","age": "24","email": "patrickirish1992@yahoo.ie","updated": "12/12/12"}
+
 /*
 ContactSchema.path('address').validate(function (v) {
 	

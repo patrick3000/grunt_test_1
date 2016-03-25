@@ -1,5 +1,16 @@
 # grunt_test_1
 
+test commands to try out
+
+in root directory mocha test
+-------
+npm test
+-------
+in nginx-conf folder
+-------
+npm test
+-------
+
 ----------author patrick irish20057889-------------------
 
 
