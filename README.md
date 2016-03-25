@@ -1,14 +1,21 @@
 # grunt_test_1
 
 Date upload
+
 25 March 2016
+
 Author 
+
 patrick irish 20057889
 
 ********run test and github commands before running command node app.js*********
+
 ********since these commands cannot be used once app.js file is active**********
+
 ********the success messgage that appears once app.js appears means sendgrid*****
+
 ********in contact.model is working the address hardcoded in it recieves an email*****
+
 ********everytime a person uploads a parse object to mongolab*****
 
 
@@ -60,12 +67,15 @@ one of these makes https appear in search bar
 *****
 
 ----http://localhost:3102-----
+
 ----http://localhost:3101-----
 
 standard API to try out
 
 ---------http://localhost:8081/api/contacts-------------
+
 ---------http://localhost:8081/api/comment/-------------
+
 ---------http://localhost:8081/api/restaurant_review----
 
 
